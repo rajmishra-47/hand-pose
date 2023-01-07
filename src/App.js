@@ -63,7 +63,7 @@ function App() {
                   //variaion 
                   handSignA.addDirection(fp.Finger.Thumb, fp.FingerDirection.DiagonalUpRight, 0.9);
 
-                for(let finger of [fp.Finger.Thumb,fp.Finger.Index, fp.Finger.Middle, fp.Finger.Ring, fp.Finger.Pinky]) {
+                for(let finger of [fp.Finger.Index, fp.Finger.Middle, fp.Finger.Ring, fp.Finger.Pinky]) {
                   handSignA.addCurl(finger, fp.FingerCurl.FullCurl, 1.0);
                 }
 
